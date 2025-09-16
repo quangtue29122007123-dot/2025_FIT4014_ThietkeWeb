@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bài Tập 03</title>
+</head>
+<body>
+
+    <h2>Bảng điểm sinh viên</h2>
+
+    <table border="1" cellpadding="8" cellspacing="0">
+        <tr>
+            <th rowspan="2">Mã SV - Tên</th>
+            <th colspan="4">Thi lần 1</th>
+            <th colspan="4">Thi lần 2</th>
+            <th colspan="2">Điểm cuối</th>
+        </tr>
+        <tr>
+            <th>Q1</th><th>Q2</th><th>Q3</th><th>Điểm</th>
+            <th>Q1</th><th>Q2</th><th>Q3</th><th>Điểm</th>
+            <th>NR</th><th>R</th>
+        </tr>
+
+        <tr>
+            <td>1971020497 Bùi Quang Tuệ</td>
+            <td>7</td><td>6</td><td>8</td><td>10.5</td>
+            <td>7</td><td>6</td><td>7</td><td>7.0</td>
+            <td>17.6</td><td>18</td>
+        </tr>
+
+        <tr>
+            <td>80549062 - Mary</td>
+            <td>5</td><td>6</td><td>5</td><td>6.8</td>
+            <td>5</td><td>6</td><td>6</td><td>6.7</td>
+            <td>16.5</td><td>17</td>
+        </tr>
+
+        <tr>
+            <td>80549063 - Claire</td>
+            <td colspan="4">-</td>
+            <td>10</td><td>10</td><td>10</td><td>10.0</td>
+            <td>10.0</td><td>10</td>
+        </tr>
+    </table>
+
+</body>
+</html>
